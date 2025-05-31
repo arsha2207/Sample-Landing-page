@@ -134,3 +134,39 @@ footer {
     height: 30px;
     position: relative;
 }
+form{
+    background-color: rgb(25 25 35);
+}
+input[type="text"]
+{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius:  20px; 
+    width: 60%;
+    height: 33px;
+    margin: 10px;
+    position: relative;
+    left: 90px;
+    color: azure;
+    padding-left:20px;
+}
+input::placeholder
+{
+    color: azure;
+}
+input[type="submit"]
+{
+    position: relative;
+    left: 90px;
+    width: 80px;
+    height: 30px;
+    border: 2px solid white;
+    background-color: #efef5c;
+    border-radius: 25px;
+    font-family: cursive;
+    font-size: 15px;
+    padding-bottom: 5px;
+    top: 4px;
+    text-align: center;
+    cursor: pointer;
+}
